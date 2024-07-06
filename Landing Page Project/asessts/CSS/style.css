@@ -1,0 +1,198 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+
+   
+    background: rgb(136,203,171);
+    background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
+    margin: 0;
+    font-family: 'Merriweather', serif; 
+    color: white;
+}
+
+
+.page__header{
+    position: fixed;
+    top: 0px;
+    background-color:#bfb75f;
+    width: 100%;    
+    /* z-index: -1; */
+
+} 
+
+
+
+li{
+    list-style-type: none;
+    display: inline; 
+    font-size: 16px; 
+    margin-right: 20px;
+    padding: 10px;
+}  
+
+li:hover{
+    background-color: blue;
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+    padding: 10px;
+    
+} 
+.navbar__menu{
+    position: relative; 
+    left: 300px; 
+    top: 0px;
+  
+}
+
+
+
+.page__footer{
+    background-color: #383232; 
+    width: 100%; 
+    height: 130px; 
+    color:white; 
+    
+}
+.footer-data{
+
+    margin:20px; 
+   
+
+ }
+.main_hero{
+      /* text-align: center; */
+      margin-left:10px ;
+      
+      font-size: 50px; 
+      padding: 130px;
+}
+
+section {
+    position: relative;
+    min-height: 50vh;  
+    
+    /* margin: 80px 10px ; */
+  margin-bottom: 180px;
+
+} 
+
+h2{
+  
+    border-bottom: 1px solid #cc1;
+    font-family: 'Oxygen', Sans-Serif;
+    font-size: 3em;
+} 
+
+.landing__container{
+    margin: 30px;
+} 
+
+p{
+    line-height: 1.6em;
+}
+
+main{
+    margin: 10vh 1em 10vh;
+} 
+
+.active{
+    background-color: green;
+}
+
+
+
+
+
+.Active-This-Class{
+   background-image: linear-gradient(to bottom right ,blue,white ); 
+   width: 100%;
+}
+button{
+    display: none;
+    position: relative; 
+    left: 100px; 
+    bottom: 30px;
+    background-color: blue; 
+    width: 210px; 
+    height: 60px;
+}
+
+
+
+
+
+
+
+
+/* ************************************************************************* */
+ /* Medea Query  */ 
+
+
+/* Medume Screen  */
+@media screen and (max-width: 768px) {
+ 
+    .page__header{
+        
+     width: 100%;    
+    } 
+
+    .page__footer{
+        width: 100%;
+    }
+
+    .navbar__menu {
+        position: relative;
+        left: 20px;
+        top: 0px;
+    }
+
+    .main_hero {
+        
+        margin-left: 10px;
+        font-size: 30px;
+        padding: 90px;
+    }
+} 
+
+/* 
+ Small Screen  */
+@media screen and (max-width:400px){
+
+.page__footer{
+    position: relative;
+    width: 100%;
+}
+.main_hero {
+    /* text-align: center; */
+    margin-left: 10px;
+    font-size: 25px;
+    padding: 10px;
+    width: 92%;
+}
+
+
+li{
+    font-size: 15px;
+    
+}
+.navbar__menu {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin: 10px;
+} 
+
+.footer-data{
+    position: absolute; 
+    top:0px; 
+    left:  0px;
+}
+
+
+}
+
